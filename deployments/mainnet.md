@@ -132,6 +132,18 @@
 | Leverage Swapper | [0x9331a9bebAD3fAb1b55cA717328A1e6610aE79B4](https://etherscan.io/address/0x9331a9bebAD3fAb1b55cA717328A1e6610aE79B4) |
 | Liquidation Engine | [0xAfe82dAD7EE47E8c050046b723cCc11DeF9AD7cB](https://etherscan.io/address/0xAfe82dAD7EE47E8c050046b723cCc11DeF9AD7cB) |
 
+### Syrup USDC Borrow Market
+
+| Contract | Address |
+|----------|---------|
+| Market | [0x33B24510233281350bF8679A7c427d04db0ed208](https://etherscan.io/address/0x33B24510233281350bF8679A7c427d04db0ed208) |
+| Implementation | [0x8F7638f2c0107f6FF766f79f68E084078fA56C0E](https://etherscan.io/address/0x8F7638f2c0107f6FF766f79f68E084078fA56C0E) |
+| IRM | [0xAf3049615aF02785a02293C8EdcB460aBEA7791C](https://etherscan.io/address/0xAf3049615aF02785a02293C8EdcB460aBEA7791C) |
+| Oracle | [0x4fB469361062de6f2Cad3610348C5B0A5620B245](https://etherscan.io/address/0x4fB469361062de6f2Cad3610348C5B0A5620B245) |
+| Leverage | [0xA30Fbc6847e27F795C33C8e298AaD9136A08DA87](https://etherscan.io/address/0xA30Fbc6847e27F795C33C8e298AaD9136A08DA87) |
+| Leverage Swapper | [0x3a48d1600A33e58cB124fc7688f0C5b7A9336A5C](https://etherscan.io/address/0x3a48d1600A33e58cB124fc7688f0C5b7A9336A5C) |
+| Liquidation Engine | [0xf86Fc229a93692CdEEfc82A3D9bdB6656A71e9a4](https://etherscan.io/address/0xf86Fc229a93692CdEEfc82A3D9bdB6656A71e9a4) |
+
 ## Rewards
 
 | Contract | Address |
