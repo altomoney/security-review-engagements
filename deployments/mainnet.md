@@ -144,6 +144,18 @@
 | Leverage Swapper | [0x3a48d1600A33e58cB124fc7688f0C5b7A9336A5C](https://etherscan.io/address/0x3a48d1600A33e58cB124fc7688f0C5b7A9336A5C) |
 | Liquidation Engine | [0xf86Fc229a93692CdEEfc82A3D9bdB6656A71e9a4](https://etherscan.io/address/0xf86Fc229a93692CdEEfc82A3D9bdB6656A71e9a4) |
 
+### PAXG Borrow Market
+
+| Contract | Address |
+|----------|---------|
+| Market | [0x99f538Ec7c840197DcAf30A25B635482ba9e8817](https://etherscan.io/address/0x99f538Ec7c840197DcAf30A25B635482ba9e8817) |
+| Implementation | [0x17571EE471c23B29174b3E79f2aF7D28DbCA3CD1](https://etherscan.io/address/0x17571EE471c23B29174b3E79f2aF7D28DbCA3CD1) |
+| IRM | [0xD7170A88797299fc2AcA54fD05C63CA5713b4B2E](https://etherscan.io/address/0xD7170A88797299fc2AcA54fD05C63CA5713b4B2E) |
+| Oracle | [0x9517603dB77d82BF61F56297E6019A0501a3D25a](https://etherscan.io/address/0x9517603dB77d82BF61F56297E6019A0501a3D25a) |
+| Leverage | [0xE670757B4D1a9ead3af30a225446162A14667Ee3](https://etherscan.io/address/0xE670757B4D1a9ead3af30a225446162A14667Ee3) |
+| Leverage Swapper | [0x1C8d22CdBC8b0fadc1E909C412F556497859652F](https://etherscan.io/address/0x1C8d22CdBC8b0fadc1E909C412F556497859652F) |
+| Liquidation Engine | [0xd4Ff4C427664645D357d3E6dC0Fd6F52DF1d3005](https://etherscan.io/address/0xd4Ff4C427664645D357d3E6dC0Fd6F52DF1d3005) |
+
 ## Rewards
 
 | Contract | Address |
