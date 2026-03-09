@@ -82,6 +82,30 @@
 | Leverage Swapper | [0x4838477c7Cc8044a319040ACEe751d6E3295d0ce](https://etherscan.io/address/0x4838477c7Cc8044a319040ACEe751d6E3295d0ce) |
 | Liquidation Engine | [0x61786D966f3FE8c4a83317af680Ea8B0eF70f4A9](https://etherscan.io/address/0x61786D966f3FE8c4a83317af680Ea8B0eF70f4A9) |
 
+### sUSDe Mint Market
+
+| Contract | Address |
+|----------|---------|
+| Market | [0x210bF54092B66443FddFec0f3F156e74B04CD2a2](https://etherscan.io/address/0x210bF54092B66443FddFec0f3F156e74B04CD2a2) |
+| Implementation | [0x729432307EA5413aCD5B9559201D48776D635907](https://etherscan.io/address/0x729432307EA5413aCD5B9559201D48776D635907) |
+| IRM | [0x11a26d840Cbfae671663177F2008499B08bF22D3](https://etherscan.io/address/0x11a26d840Cbfae671663177F2008499B08bF22D3) |
+| Oracle | [0x317fcb245D2038C0214cE7b97b723EfDD4a56603](https://etherscan.io/address/0x317fcb245D2038C0214cE7b97b723EfDD4a56603) |
+| Leverage | [0xbCe13995dD705cb18D85EAa02655ad05162343B1](https://etherscan.io/address/0xbCe13995dD705cb18D85EAa02655ad05162343B1) |
+| Leverage Swapper | [0x0E635F6529D37EcaD98b5D709beB479CdC101941](https://etherscan.io/address/0x0E635F6529D37EcaD98b5D709beB479CdC101941) |
+| Liquidation Engine | [0xE81419819a776404d318864C3A462E5cdac783fA](https://etherscan.io/address/0xE81419819a776404d318864C3A462E5cdac783fA) |
+
+### Syrup USDC Mint Market
+
+| Contract | Address |
+|----------|---------|
+| Market | [0xD2eA320713158a7b7eaE46025B8Ad4CBF3cdc87e](https://etherscan.io/address/0xD2eA320713158a7b7eaE46025B8Ad4CBF3cdc87e) |
+| Implementation | [0xCB330548c8C9a2EdAfDE7bbb49b3c4AB139246D9](https://etherscan.io/address/0xCB330548c8C9a2EdAfDE7bbb49b3c4AB139246D9) |
+| IRM | [0x53edE9e93cE0fc73f87d4B5E5cC54546d45aD294](https://etherscan.io/address/0x53edE9e93cE0fc73f87d4B5E5cC54546d45aD294) |
+| Oracle | [0x72c7DC92D39850619c622f512e50B53f75A05D13](https://etherscan.io/address/0x72c7DC92D39850619c622f512e50B53f75A05D13) |
+| Leverage | [0x8d9B32Bbc6b857ec4aFeFC94dBdeE8Be3721c5df](https://etherscan.io/address/0x8d9B32Bbc6b857ec4aFeFC94dBdeE8Be3721c5df) |
+| Leverage Swapper | [0xA9648f1bc911518506c55836efCa919EC192574a](https://etherscan.io/address/0xA9648f1bc911518506c55836efCa919EC192574a) |
+| Liquidation Engine | [0xa6c519d3EC7763EA21F77A83017618CD51c0d118](https://etherscan.io/address/0xa6c519d3EC7763EA21F77A83017618CD51c0d118) |
+
 ## Borrow Markets
 
 ### cbBTC Borrow Market
