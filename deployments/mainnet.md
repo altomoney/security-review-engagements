@@ -12,6 +12,7 @@
 | Alto Adapter | [0x241aA0aC561a5c210a86FeCC82f45D2713F59C0C](https://etherscan.io/address/0x241aA0aC561a5c210a86FeCC82f45D2713F59C0C) |
 | Fee Recipient | [0xb9F06fEFc4c53dEd77A90Cb798eD08DC068Bb6dd](https://etherscan.io/address/0xb9F06fEFc4c53dEd77A90Cb798eD08DC068Bb6dd) |
 | Fee Recipient (Mint Markets) | [0x5F80c18b6B73B1C4F06fa5233De32778eC90FA96](https://etherscan.io/address/0x5F80c18b6B73B1C4F06fa5233De32778eC90FA96) |
+| Address Change | [0x8cf6F8D0201f38Fa3e6f21C1f4803f4eb40c0bB2](https://etherscan.io/address/0x8cf6F8D0201f38Fa3e6f21C1f4803f4eb40c0bB2) |
 
 ## USM (Universal Stability Module)
 
@@ -106,6 +107,18 @@
 | Leverage Swapper | [0xA9648f1bc911518506c55836efCa919EC192574a](https://etherscan.io/address/0xA9648f1bc911518506c55836efCa919EC192574a) |
 | Liquidation Engine | [0xa6c519d3EC7763EA21F77A83017618CD51c0d118](https://etherscan.io/address/0xa6c519d3EC7763EA21F77A83017618CD51c0d118) |
 
+### tBTC Market
+
+| Contract | Address |
+|----------|---------|
+| Market | [0xE17F10f8535336143d4F2FE304f3Dcf7B23671e1](https://etherscan.io/address/0xE17F10f8535336143d4F2FE304f3Dcf7B23671e1) |
+| Implementation | [0x266e5FB314ba71BBA7d1Bb830f527Acd5c143675](https://etherscan.io/address/0x266e5FB314ba71BBA7d1Bb830f527Acd5c143675) |
+| IRM | [0x0e4065C4Db1802d3f24D538C8F685571c7F83896](https://etherscan.io/address/0x0e4065C4Db1802d3f24D538C8F685571c7F83896) |
+| Oracle | [0x3365e8DE476d416BF7bE20E8adBaA7f6E3CAaF3a](https://etherscan.io/address/0x3365e8DE476d416BF7bE20E8adBaA7f6E3CAaF3a) |
+| Leverage | [0x52D333FdF687121a0718d02D8A0Eb6346D07fFA3](https://etherscan.io/address/0x52D333FdF687121a0718d02D8A0Eb6346D07fFA3) |
+| Leverage Swapper | [0x95a6B36bcB3E18Cd55F0ff4c655F61aa301f4845](https://etherscan.io/address/0x95a6B36bcB3E18Cd55F0ff4c655F61aa301f4845) |
+| Liquidation Engine | [0xBD284dD74479F3cBf4B59eE8479eCe2bB48f96a7](https://etherscan.io/address/0xBD284dD74479F3cBf4B59eE8479eCe2bB48f96a7) |
+
 ## Borrow Markets
 
 ### cbBTC Borrow Market
@@ -131,18 +144,6 @@
 | Leverage | [0xcC51aCb1D625F06487D7D568e7E8F9620Ec6b082](https://etherscan.io/address/0xcC51aCb1D625F06487D7D568e7E8F9620Ec6b082) |
 | Leverage Swapper | [0x8714cc923aAA7dFD37264f91C82A33454CD41eFc](https://etherscan.io/address/0x8714cc923aAA7dFD37264f91C82A33454CD41eFc) |
 | Liquidation Engine | [0x5B7a27B467C4B111c780210475d527aD91e30277](https://etherscan.io/address/0x5B7a27B467C4B111c780210475d527aD91e30277) |
-
-### tBTC Borrow Market
-
-| Contract | Address |
-|----------|---------|
-| Market | [0xE17F10f8535336143d4F2FE304f3Dcf7B23671e1](https://etherscan.io/address/0xE17F10f8535336143d4F2FE304f3Dcf7B23671e1) |
-| Implementation | [0x223566C6B2d0706cD9cD75F628cC9Ec6889f9ca3](https://etherscan.io/address/0x223566C6B2d0706cD9cD75F628cC9Ec6889f9ca3) |
-| IRM | [0x0e4065C4Db1802d3f24D538C8F685571c7F83896](https://etherscan.io/address/0x0e4065C4Db1802d3f24D538C8F685571c7F83896) |
-| Oracle | [0x3365e8DE476d416BF7bE20E8adBaA7f6E3CAaF3a](https://etherscan.io/address/0x3365e8DE476d416BF7bE20E8adBaA7f6E3CAaF3a) |
-| Leverage | [0x52D333FdF687121a0718d02D8A0Eb6346D07fFA3](https://etherscan.io/address/0x52D333FdF687121a0718d02D8A0Eb6346D07fFA3) |
-| Leverage Swapper | [0x95a6B36bcB3E18Cd55F0ff4c655F61aa301f4845](https://etherscan.io/address/0x95a6B36bcB3E18Cd55F0ff4c655F61aa301f4845) |
-| Liquidation Engine | [0xBD284dD74479F3cBf4B59eE8479eCe2bB48f96a7](https://etherscan.io/address/0xBD284dD74479F3cBf4B59eE8479eCe2bB48f96a7) |
 
 ### sUSDe Borrow Market
 
