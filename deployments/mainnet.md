@@ -34,6 +34,15 @@
 | Implementation | [0xe59560D1885993B3289381a5A54B9DCBB5C67c7b](https://etherscan.io/address/0xe59560D1885993B3289381a5A54B9DCBB5C67c7b) |
 | Fixed Price Strategy | [0x138098AE168EBe9bB792F1Ed365F32E2dd94C590](https://etherscan.io/address/0x138098AE168EBe9bB792F1Ed365F32E2dd94C590) |
 
+### Permissionless frxUSD USM
+
+| Contract | Address |
+|----------|---------|
+| Permissionless frxUSD USM | [0x7b9468fB9f3146ec82ceB2Dd75e6a47F3EAd5f79](https://etherscan.io/address/0x7b9468fB9f3146ec82ceB2Dd75e6a47F3EAd5f79) |
+| Implementation | [0xEcF74BF3585e7E0d5D8cAf60c3ddDCF965A90892](https://etherscan.io/address/0xEcF74BF3585e7E0d5D8cAf60c3ddDCF965A90892) |
+| Fixed Price Strategy | [0x65b034f965a4C3d1d9CcfdD09EE3FAf280bF363e](https://etherscan.io/address/0x65b034f965a4C3d1d9CcfdD09EE3FAf280bF363e) |
+| Fixed Fee Strategy | [0xEF27FE94A0e49fB4773c45eb46820966E70E030f](https://etherscan.io/address/0xEF27FE94A0e49fB4773c45eb46820966E70E030f) |
+
 ### Permissionless USM
 
 | Contract | Address |
