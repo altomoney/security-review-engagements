@@ -18,7 +18,7 @@
 
 ## USM (Universal Stability Module)
 
-### Permissioned USM
+### Permissioned USDC USM
 
 | Contract | Address |
 |----------|---------|
@@ -42,15 +42,6 @@
 | Implementation | [0xEcF74BF3585e7E0d5D8cAf60c3ddDCF965A90892](https://etherscan.io/address/0xEcF74BF3585e7E0d5D8cAf60c3ddDCF965A90892) |
 | Fixed Price Strategy | [0x65b034f965a4C3d1d9CcfdD09EE3FAf280bF363e](https://etherscan.io/address/0x65b034f965a4C3d1d9CcfdD09EE3FAf280bF363e) |
 | Fixed Fee Strategy | [0xEF27FE94A0e49fB4773c45eb46820966E70E030f](https://etherscan.io/address/0xEF27FE94A0e49fB4773c45eb46820966E70E030f) |
-
-### Permissionless USM
-
-| Contract | Address |
-|----------|---------|
-| Permissionless USM | [0x4026db9152cEb2e6D376de72Efb70eb8F407A0e4](https://etherscan.io/address/0x4026db9152cEb2e6D376de72Efb70eb8F407A0e4) |
-| Implementation | [0x62f24301bCdF946E556743cB2bC4073fC87D8246](https://etherscan.io/address/0x62f24301bCdF946E556743cB2bC4073fC87D8246) |
-| Fixed Price Strategy | [0x3C8A74daeA086456f520AE0C750CD90186138De3](https://etherscan.io/address/0x3C8A74daeA086456f520AE0C750CD90186138De3) |
-| Fixed Fee Strategy | [0x274C913a859cC5F6fb3ba01FEa5799f38add6ed4](https://etherscan.io/address/0x274C913a859cC5F6fb3ba01FEa5799f38add6ed4) |
 
 ## Mint Markets
 
