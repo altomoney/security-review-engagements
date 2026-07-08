@@ -10,7 +10,7 @@ Security is a top priority at Alto. We engage with leading security firms to con
 
 | Date | Provider | Scope | Report |
 |:-----|:---------|:------|:-------|
-| June 2026 | Cantina | PSM upgrade | [IN PROGRESS]() |
+| June 2026 | Cantina | Advanced Permissions USM & Liquidation Periphery | [📄 View Report](./reports/cantina_alto_money_jun2026.pdf) |
 | April 2026 | Cantina | Vault code upgrade | [📄 View Report](./reports/report-cli-cantina-2032a5c5-8cb7-433b-bdfe-64b0cde36cac-alto-phaze-solo.pdf) |
 | February 2026 | Cantina | Liquidation Mechanism | [📄 View Report](./reports/report-cli-cantina-altomoney-0114.pdf) |
 | December 2025 | Cantina | Oracles & Miscellaneous | [📄 View Report](./reports/report-cantinacode-alto-money-solo-1204.pdf) |
