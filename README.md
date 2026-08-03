@@ -8,18 +8,20 @@ Security is a top priority at Alto. We engage with leading security firms to con
 
 ## Completed Audits
 
-| Date | Provider | Scope | Report |
-|:-----|:---------|:------|:-------|
-| June 2026 | Cantina | Advanced Permissions USM & Liquidation Periphery | [📄 View Report](./reports/cantina_alto_money_jun2026.pdf) |
-| April 2026 | Cantina | Vault code upgrade | [📄 View Report](./reports/report-cli-cantina-2032a5c5-8cb7-433b-bdfe-64b0cde36cac-alto-phaze-solo.pdf) |
-| February 2026 | Cantina | Liquidation Mechanism | [📄 View Report](./reports/report-cli-cantina-altomoney-0114.pdf) |
-| December 2025 | Cantina | Oracles & Miscellaneous | [📄 View Report](./reports/report-cantinacode-alto-money-solo-1204.pdf) |
-| November 2025 | Cantina | PSM | [📄 View Report](./reports/report-cantinacode-alto-money-1124.pdf) |
-| November 2025 | Bailsec | Staking & Rewards | [📄 View Report](./reports/Bailsec%20-%20ALTO%20-%20Staking%20Rewards%20-%20Final%20Report.pdf) |
-| November 2025 | Enigma Dark | Oracles & Miscellaneous, Staking | [📄 View Report](./reports/2025-11_Managed_Security_Review_Alto_foundation.pdf) |
-| November 2025 | Bailsec | Lending Market | [📄 View Report](./reports/Bailsec%20-%20ALTO%20-%20Lending%20Market%20-%20Final%20Report.pdf) |
-| September 2025 | Enigma Dark | Rewards | [📄 View Report](./reports/2025-09_Managed_Security_Review_Alto_foundation.pdf) |
-| July 2025 | Enigma Dark | Lending | [📄 View Report](./reports/2025-07_Managed_Security_Review_Alto_foundation.pdf) |
+The audited scope below follows each report's explicit scope section. When a report does not provide a component-level scope list, the table uses the report title or stated codebase snapshot and identifies that limitation.
+
+| Date | Provider | Audited Scope | Reviewed Version | Report |
+|:-----|:---------|:--------------|:-----------------|:-------|
+| June 2026 | Cantina | `AltoBaseMarket`; `LiquidationPeriphery`; `AdvancedPermissionsFeeStrategy`; `AdvancedPermissionsUsm`; `DUSDAdvancedPermissionsUsm` | [`da40ba42`](https://github.com/altomoney/v1/tree/da40ba42) | [📄 View Report](./reports/cantina_alto_money_jun2026.pdf) |
+| April 2026 | Cantina | `AltoVault`; `AltoBalancesLib`; `MarketLib`; `PendingLib`; `AltoAdapter` | [`b1d504fc`](https://github.com/altomoney/v1/tree/b1d504fc) | [📄 View Report](./reports/report-cli-cantina-2032a5c5-8cb7-433b-bdfe-64b0cde36cac-alto-phaze-solo.pdf) |
+| February 2026 | Cantina | Alto v1; no component-level scope list is provided in the report | [`75f40717`](https://github.com/altomoney/v1/tree/75f40717) | [📄 View Report](./reports/report-cli-cantina-altomoney-0114.pdf) |
+| December 2025 | Cantina | `AltoLeverageSwapper`; ERC-4626 ratio, Chainlink, Curve, Uniswap, multi-Chainlink, and rewards oracles; `DUSD`; `AltoVesting` | [`2cae67d9`](https://github.com/altomoney/v1/tree/2cae67d9) | [📄 View Report](./reports/report-cantinacode-alto-money-solo-1204.pdf) |
+| November 2025 | Cantina | `DUSDUsm`; `FixedFeeStrategy`; `FixedPriceStrategy`; `Usm` | [`75fd6ea2`](https://github.com/altomoney/v1/tree/75fd6ea2) | [📄 View Report](./reports/report-cantinacode-alto-money-1124.pdf) |
+| November 2025 | Bailsec | `AltoStaking`; `TVLWeightedContainers`; `AltoRewardsDistributor`; `AltoReferralWhitelistAdapter`; `MerkleRootManager`; selected staking and rewards functions in `AltoAdapter` | [`282aee08`](https://github.com/altomoney/v1/tree/282aee08b4a53f753fa11e05e5139b27dcefe272) | [📄 View Report](./reports/Bailsec%20-%20ALTO%20-%20Staking%20Rewards%20-%20Final%20Report.pdf) |
+| November 2025 | Enigma Dark | Oracles + Staking (report title; no component-level scope list is provided) | [`4bff7afb`](https://github.com/altomoney/v1/tree/4bff7afb040ee83dce14016b2c206009ce91a759) | [📄 View Report](./reports/2025-11_Managed_Security_Review_Alto_foundation.pdf) |
+| November 2025 | Bailsec | `AltoBaseMarket`; `AltoBorrowMarket`; `AltoLeverage`; `AdaptiveCurveIRM`; `FixedRateIRM`; `AssetShareConversionMath`. Oracle, router/`AuthUpgradeable`, and swap control flow are excluded. | [`c965a0a4`](https://github.com/altomoney/v1/tree/c965a0a49000824f1fa93e5007c06e25a826bdfa) | [📄 View Report](./reports/Bailsec%20-%20ALTO%20-%20Lending%20Market%20-%20Final%20Report.pdf) |
+| September 2025 | Enigma Dark | Rewards (report title; no component-level scope list is provided) | [`9184b9df`](https://github.com/altomoney/v1/tree/9184b9df000e231b606161cf16be2cd08a723ccb) | [📄 View Report](./reports/2025-09_Managed_Security_Review_Alto_foundation.pdf) |
+| July 2025 | Enigma Dark | Lending (report title; no component-level scope list is provided) | [`cd400bfc`](https://github.com/altomoney/v1/tree/cd400bfc868a5880a0c0336086e13288f5e61083) | [📄 View Report](./reports/2025-07_Managed_Security_Review_Alto_foundation.pdf) |
 
 ## Security Providers
 
