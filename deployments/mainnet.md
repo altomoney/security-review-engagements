@@ -16,6 +16,9 @@
 | DUSD Vault | [0x6954785783c6EE90400fA715E591fBbA0D0Bd749](https://etherscan.io/address/0x6954785783c6EE90400fA715E591fBbA0D0Bd749) |
 | Vault Registry | [0x696E7b1D5D11E2cf7F7b970aCf54cF1491f17A47](https://etherscan.io/address/0x696E7b1D5D11E2cf7F7b970aCf54cF1491f17A47) |
 | Liquidation Periphery | [0xa9DDC8833A7eEcbcFd48F6cBa17c521099683615](https://etherscan.io/address/0xa9DDC8833A7eEcbcFd48F6cBa17c521099683615) |
+| Emergency Controller | [0x3c822f14a90955bf35278b42BA509FeEcAD3a305](https://etherscan.io/address/0x3c822f14a90955bf35278b42BA509FeEcAD3a305) |
+| Emergency Controller Implementation | [0xFE329F88663b9B8833b180A139315C131A033167](https://etherscan.io/address/0xFE329F88663b9B8833b180A139315C131A033167) |
+| Owner Fixed Rate IRM Factory | [0xb236C44F2A243e7F0f03a1eff6D447cd043A5c9C](https://etherscan.io/address/0xb236C44F2A243e7F0f03a1eff6D447cd043A5c9C) |
 
 ## USM (Universal Stability Module)
 
@@ -55,7 +58,79 @@
 
 ## Mint Markets
 
-### WETH Market
+### WETH Refresh Market
+
+| Contract | Address |
+|----------|---------|
+| Market | [0x81b2CcE73052f67312eD9994385f62D413eE566e](https://etherscan.io/address/0x81b2CcE73052f67312eD9994385f62D413eE566e) |
+| Implementation | [0xFa82D4a97C2E7Ac747A37d1c3e2a4782dee8DE67](https://etherscan.io/address/0xFa82D4a97C2E7Ac747A37d1c3e2a4782dee8DE67) |
+| IRM | [0x691a2ce84980c4f04BFA4465F9b20B3053407140](https://etherscan.io/address/0x691a2ce84980c4f04BFA4465F9b20B3053407140) |
+| Oracle | [0xC3842dE42853A901EaB267e5b98EE59a56F5fE49](https://etherscan.io/address/0xC3842dE42853A901EaB267e5b98EE59a56F5fE49) |
+| Leverage | [0x83869789616658532e1805C018149C5CCB033Ddc](https://etherscan.io/address/0x83869789616658532e1805C018149C5CCB033Ddc) |
+| Leverage Swapper | [0xC9Ae71fD540e2Fe45A713FBe4d5118e8d015C906](https://etherscan.io/address/0xC9Ae71fD540e2Fe45A713FBe4d5118e8d015C906) |
+| Liquidation Engine | [0x3ac8dF04F9ce29d9C8e767564DA6A7b554fee614](https://etherscan.io/address/0x3ac8dF04F9ce29d9C8e767564DA6A7b554fee614) |
+
+### wstETH Refresh Market
+
+| Contract | Address |
+|----------|---------|
+| Market | [0x4Ad5AC62542164A74fF88a2BCDd0142126c1E3A3](https://etherscan.io/address/0x4Ad5AC62542164A74fF88a2BCDd0142126c1E3A3) |
+| Implementation | [0xFa82D4a97C2E7Ac747A37d1c3e2a4782dee8DE67](https://etherscan.io/address/0xFa82D4a97C2E7Ac747A37d1c3e2a4782dee8DE67) |
+| IRM | [0x940e12609CE1bC3D1AC286E59fa2FeAd58cB9470](https://etherscan.io/address/0x940e12609CE1bC3D1AC286E59fa2FeAd58cB9470) |
+| Oracle | [0xE1C7DD173C1CafF4Fd3a03B09694C4fc1c78f460](https://etherscan.io/address/0xE1C7DD173C1CafF4Fd3a03B09694C4fc1c78f460) |
+| Leverage | [0x7A60653bB70017a547898ADb1f2391B1C778018e](https://etherscan.io/address/0x7A60653bB70017a547898ADb1f2391B1C778018e) |
+| Leverage Swapper | [0x31fD6f1FE431b42f9ECD70da171fbD66fddf7557](https://etherscan.io/address/0x31fD6f1FE431b42f9ECD70da171fbD66fddf7557) |
+| Liquidation Engine | [0x780De599D16aAd9F804a6561287D6363d0619673](https://etherscan.io/address/0x780De599D16aAd9F804a6561287D6363d0619673) |
+
+### rETH Refresh Market
+
+| Contract | Address |
+|----------|---------|
+| Market | [0x12C219BaCc90E87Fe11E34288454728E1D8C8Dcf](https://etherscan.io/address/0x12C219BaCc90E87Fe11E34288454728E1D8C8Dcf) |
+| Implementation | [0xFa82D4a97C2E7Ac747A37d1c3e2a4782dee8DE67](https://etherscan.io/address/0xFa82D4a97C2E7Ac747A37d1c3e2a4782dee8DE67) |
+| IRM | [0x184164A7367ead2112439Fbed2403a7d29C4445c](https://etherscan.io/address/0x184164A7367ead2112439Fbed2403a7d29C4445c) |
+| Oracle | [0xE860bC68C90CF97e681802fF348E1D365b237242](https://etherscan.io/address/0xE860bC68C90CF97e681802fF348E1D365b237242) |
+| Leverage | [0xFC40d25a428f5807D25B91ACcE21DeCD01e37728](https://etherscan.io/address/0xFC40d25a428f5807D25B91ACcE21DeCD01e37728) |
+| Leverage Swapper | [0x6CD17c33a94DBb3eD8170f9C4f13dF0007C31eE0](https://etherscan.io/address/0x6CD17c33a94DBb3eD8170f9C4f13dF0007C31eE0) |
+| Liquidation Engine | [0x484Bee6eF989603E3D34180034f49577eB3D461A](https://etherscan.io/address/0x484Bee6eF989603E3D34180034f49577eB3D461A) |
+
+### frxUSD Refresh Market
+
+| Contract | Address |
+|----------|---------|
+| Market | [0x37Ab044Cce4eE2cC659B887e0868BaBe097BE9b1](https://etherscan.io/address/0x37Ab044Cce4eE2cC659B887e0868BaBe097BE9b1) |
+| Implementation | [0xFa82D4a97C2E7Ac747A37d1c3e2a4782dee8DE67](https://etherscan.io/address/0xFa82D4a97C2E7Ac747A37d1c3e2a4782dee8DE67) |
+| IRM | [0x959B55445451fB68fdDE8F48416CEE472866d34E](https://etherscan.io/address/0x959B55445451fB68fdDE8F48416CEE472866d34E) |
+| Oracle | [0xdb6CB99e27DF7DeD10eB864cca7F806d409AB579](https://etherscan.io/address/0xdb6CB99e27DF7DeD10eB864cca7F806d409AB579) |
+| Leverage | [0x9a733e204546B1614E8cE8Ac77A1e528b507FB4d](https://etherscan.io/address/0x9a733e204546B1614E8cE8Ac77A1e528b507FB4d) |
+| Leverage Swapper | [0x31E5F966Be16551b7E80155CEEf22165abf37739](https://etherscan.io/address/0x31E5F966Be16551b7E80155CEEf22165abf37739) |
+| Liquidation Engine | [0x956Abd4D48026A11e4f24a2c1D17fd5257dCF920](https://etherscan.io/address/0x956Abd4D48026A11e4f24a2c1D17fd5257dCF920) |
+
+### sUSDe Refresh Mint Market
+
+| Contract | Address |
+|----------|---------|
+| Market | [0xD2D7F7db33C647D5bF02937A3742C5Ad28197C3E](https://etherscan.io/address/0xD2D7F7db33C647D5bF02937A3742C5Ad28197C3E) |
+| Implementation | [0xFa82D4a97C2E7Ac747A37d1c3e2a4782dee8DE67](https://etherscan.io/address/0xFa82D4a97C2E7Ac747A37d1c3e2a4782dee8DE67) |
+| IRM | [0xCC0f58Ba8C9312230C8dc4Dee7c35E552D79EB73](https://etherscan.io/address/0xCC0f58Ba8C9312230C8dc4Dee7c35E552D79EB73) |
+| Oracle | [0x2cB4B7865d36E6A3DC9c79fCE5bDa3B5EC45C027](https://etherscan.io/address/0x2cB4B7865d36E6A3DC9c79fCE5bDa3B5EC45C027) |
+| Leverage | [0x9F20667f4B26b1981cCE97762ed7798E80196Ec1](https://etherscan.io/address/0x9F20667f4B26b1981cCE97762ed7798E80196Ec1) |
+| Leverage Swapper | [0x4B682d0FC0bD256Da94B037CDF58177Ba0Fe19ae](https://etherscan.io/address/0x4B682d0FC0bD256Da94B037CDF58177Ba0Fe19ae) |
+| Liquidation Engine | [0x8974a35516Ff3EBD8F38421524Ea0dfe3Def975e](https://etherscan.io/address/0x8974a35516Ff3EBD8F38421524Ea0dfe3Def975e) |
+
+### Syrup USDC Refresh Mint Market
+
+| Contract | Address |
+|----------|---------|
+| Market | [0xD5EFF65DEC6BdF835B4041e862d6D54eA2CAb45a](https://etherscan.io/address/0xD5EFF65DEC6BdF835B4041e862d6D54eA2CAb45a) |
+| Implementation | [0xFa82D4a97C2E7Ac747A37d1c3e2a4782dee8DE67](https://etherscan.io/address/0xFa82D4a97C2E7Ac747A37d1c3e2a4782dee8DE67) |
+| IRM | [0xD44126E13fDA24d4F5329E0A73f79c38BC78B031](https://etherscan.io/address/0xD44126E13fDA24d4F5329E0A73f79c38BC78B031) |
+| Oracle | [0x26328d0dE100d809a1d29d747AC463a5b5ad45Cf](https://etherscan.io/address/0x26328d0dE100d809a1d29d747AC463a5b5ad45Cf) |
+| Leverage | [0x53da3129Aeb3c664e356d7897637c8501557B78F](https://etherscan.io/address/0x53da3129Aeb3c664e356d7897637c8501557B78F) |
+| Leverage Swapper | [0xc3790acD68b16F01a23bcC18c0B9B87Db2f8a02A](https://etherscan.io/address/0xc3790acD68b16F01a23bcC18c0B9B87Db2f8a02A) |
+| Liquidation Engine | [0x896dd79f605F8108C84954F55Ee24F56F8Be1D75](https://etherscan.io/address/0x896dd79f605F8108C84954F55Ee24F56F8Be1D75) |
+
+### WETH Market (Deprecated)
 
 | Contract | Address |
 |----------|---------|
@@ -67,7 +142,7 @@
 | Leverage Swapper | [0x8814f9A1f996Ee5EdE2Dc2E1229bc87b8D939c85](https://etherscan.io/address/0x8814f9A1f996Ee5EdE2Dc2E1229bc87b8D939c85) |
 | Liquidation Engine | [0x984E3D783E78ac5c5192CaEB562bE84306724A86](https://etherscan.io/address/0x984E3D783E78ac5c5192CaEB562bE84306724A86) |
 
-### wstETH Market
+### wstETH Market (Deprecated)
 
 | Contract | Address |
 |----------|---------|
@@ -79,7 +154,7 @@
 | Leverage Swapper | [0x2264b8E45393404A989C43E38bce5BafdBEb4B62](https://etherscan.io/address/0x2264b8E45393404A989C43E38bce5BafdBEb4B62) |
 | Liquidation Engine | [0xB9724552a774369E8319d8EDC00A7cb95fc5dDe2](https://etherscan.io/address/0xB9724552a774369E8319d8EDC00A7cb95fc5dDe2) |
 
-### rETH Market
+### rETH Market (Deprecated)
 
 | Contract | Address |
 |----------|---------|
@@ -91,7 +166,7 @@
 | Leverage Swapper | [0x65C7b84204392597161daDB5749b68299Ad4eb6F](https://etherscan.io/address/0x65C7b84204392597161daDB5749b68299Ad4eb6F) |
 | Liquidation Engine | [0x2a3fB51184183405c975Bd8b355d4Dc43209f45B](https://etherscan.io/address/0x2a3fB51184183405c975Bd8b355d4Dc43209f45B) |
 
-### mETH Market
+### mETH Market (Deprecated)
 
 | Contract | Address |
 |----------|---------|
@@ -103,7 +178,7 @@
 | Leverage Swapper | [0xef82C87c65bA9096011cFd1682d1f98ff02187Fb](https://etherscan.io/address/0xef82C87c65bA9096011cFd1682d1f98ff02187Fb) |
 | Liquidation Engine | [0x61786D966f3FE8c4a83317af680Ea8B0eF70f4A9](https://etherscan.io/address/0x61786D966f3FE8c4a83317af680Ea8B0eF70f4A9) |
 
-### sUSDe Mint Market
+### sUSDe Mint Market (Deprecated)
 
 | Contract | Address |
 |----------|---------|
@@ -115,7 +190,7 @@
 | Leverage Swapper | [0xe2C2A2E165A2d07deE34F5996ff90df053d93882](https://etherscan.io/address/0xe2C2A2E165A2d07deE34F5996ff90df053d93882) |
 | Liquidation Engine | [0xE81419819a776404d318864C3A462E5cdac783fA](https://etherscan.io/address/0xE81419819a776404d318864C3A462E5cdac783fA) |
 
-### Syrup USDC Mint Market
+### Syrup USDC Mint Market (Deprecated)
 
 | Contract | Address |
 |----------|---------|
@@ -127,7 +202,7 @@
 | Leverage Swapper | [0xDd8158f87947D8dCcF54aD697a7d931B6888BD96](https://etherscan.io/address/0xDd8158f87947D8dCcF54aD697a7d931B6888BD96) |
 | Liquidation Engine | [0xa6c519d3EC7763EA21F77A83017618CD51c0d118](https://etherscan.io/address/0xa6c519d3EC7763EA21F77A83017618CD51c0d118) |
 
-### tBTC Market
+### tBTC Market (Deprecated)
 
 | Contract | Address |
 |----------|---------|
@@ -141,7 +216,31 @@
 
 ## Borrow Markets
 
-### cbBTC Borrow Market
+### sUSDe Refresh Borrow Market
+
+| Contract | Address |
+|----------|---------|
+| Market | [0x5d8fA5E1fAcb746179BD1AEb3aA78Db384C52001](https://etherscan.io/address/0x5d8fA5E1fAcb746179BD1AEb3aA78Db384C52001) |
+| Implementation | [0x29B6e2D9BfFCb4d70AC568CD0Ff93F61e79c9b57](https://etherscan.io/address/0x29B6e2D9BfFCb4d70AC568CD0Ff93F61e79c9b57) |
+| IRM | [0xF899606a6792A40228a2Cf73CeB172D87d01197f](https://etherscan.io/address/0xF899606a6792A40228a2Cf73CeB172D87d01197f) |
+| Oracle | [0xAd9F966344E676f7E087F523c1Eb0BEA7fcED871](https://etherscan.io/address/0xAd9F966344E676f7E087F523c1Eb0BEA7fcED871) |
+| Leverage | [0xCEb71c512d41e7CBA42D422D586D5BFF15628B87](https://etherscan.io/address/0xCEb71c512d41e7CBA42D422D586D5BFF15628B87) |
+| Leverage Swapper | [0xAC65363CE5E4D2EBa37897f954Ee5551ac70A2F7](https://etherscan.io/address/0xAC65363CE5E4D2EBa37897f954Ee5551ac70A2F7) |
+| Liquidation Engine | [0xA1b911C748c7F885CF91b00EEADD88CD1F5027f1](https://etherscan.io/address/0xA1b911C748c7F885CF91b00EEADD88CD1F5027f1) |
+
+### Syrup USDC Refresh Borrow Market
+
+| Contract | Address |
+|----------|---------|
+| Market | [0x053B53CaA70Ec3EdA3ab839412701825Dce72a99](https://etherscan.io/address/0x053B53CaA70Ec3EdA3ab839412701825Dce72a99) |
+| Implementation | [0x29B6e2D9BfFCb4d70AC568CD0Ff93F61e79c9b57](https://etherscan.io/address/0x29B6e2D9BfFCb4d70AC568CD0Ff93F61e79c9b57) |
+| IRM | [0xA39a338ABD851A469f74Ea0D4A3f7d5599B91C73](https://etherscan.io/address/0xA39a338ABD851A469f74Ea0D4A3f7d5599B91C73) |
+| Oracle | [0x6546f48CB9819671690fb9678087EA057a126e08](https://etherscan.io/address/0x6546f48CB9819671690fb9678087EA057a126e08) |
+| Leverage | [0xE376A3816460222f4D87747aDe0e3aa6B8d9235A](https://etherscan.io/address/0xE376A3816460222f4D87747aDe0e3aa6B8d9235A) |
+| Leverage Swapper | [0xAe5A47C39d55917BeCaC551E0522F337F435708C](https://etherscan.io/address/0xAe5A47C39d55917BeCaC551E0522F337F435708C) |
+| Liquidation Engine | [0x7B63E08a146eC3cdc0eDD6E14Dac77514A850032](https://etherscan.io/address/0x7B63E08a146eC3cdc0eDD6E14Dac77514A850032) |
+
+### cbBTC Borrow Market (Deprecated)
 
 | Contract | Address |
 |----------|---------|
@@ -153,7 +252,7 @@
 | Leverage Swapper | [0x3F53a997BDA0aBb348068869b514D0F1D5056216](https://etherscan.io/address/0x3F53a997BDA0aBb348068869b514D0F1D5056216) |
 | Liquidation Engine | [0xCB28c27539D7B57E802b9BC6E58501B8f2d6d898](https://etherscan.io/address/0xCB28c27539D7B57E802b9BC6E58501B8f2d6d898) |
 
-### WBTC Borrow Market
+### WBTC Borrow Market (Deprecated)
 
 | Contract | Address |
 |----------|---------|
@@ -165,7 +264,7 @@
 | Leverage Swapper | [0xe55282760E475B14773818Cea77b408ceE8933f2](https://etherscan.io/address/0xe55282760E475B14773818Cea77b408ceE8933f2) |
 | Liquidation Engine | [0x5B7a27B467C4B111c780210475d527aD91e30277](https://etherscan.io/address/0x5B7a27B467C4B111c780210475d527aD91e30277) |
 
-### sUSDe Borrow Market
+### sUSDe Borrow Market (Deprecated)
 
 | Contract | Address |
 |----------|---------|
@@ -177,7 +276,7 @@
 | Leverage Swapper | [0xA3F15A334A1399a5e2aCc1d9Ca2a046062fdE559](https://etherscan.io/address/0xA3F15A334A1399a5e2aCc1d9Ca2a046062fdE559) |
 | Liquidation Engine | [0xAfe82dAD7EE47E8c050046b723cCc11DeF9AD7cB](https://etherscan.io/address/0xAfe82dAD7EE47E8c050046b723cCc11DeF9AD7cB) |
 
-### Syrup USDC Borrow Market
+### Syrup USDC Borrow Market (Deprecated)
 
 | Contract | Address |
 |----------|---------|
@@ -189,7 +288,7 @@
 | Leverage Swapper | [0x7cF8D583a453fCe304973db8f800538a91aEfCFa](https://etherscan.io/address/0x7cF8D583a453fCe304973db8f800538a91aEfCFa) |
 | Liquidation Engine | [0xf86Fc229a93692CdEEfc82A3D9bdB6656A71e9a4](https://etherscan.io/address/0xf86Fc229a93692CdEEfc82A3D9bdB6656A71e9a4) |
 
-### PAXG Borrow Market
+### PAXG Borrow Market (Deprecated)
 
 | Contract | Address |
 |----------|---------|
