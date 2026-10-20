@@ -10,14 +10,14 @@
 | USM Registry | [0xAD5620e10C33918E2C6A2E8E53325bf98c548E5e](https://etherscan.io/address/0xAD5620e10C33918E2C6A2E8E53325bf98c548E5e) |
 | Timelock | [0xfAe841679dc1A93D225ECc827E4BbF3e8d703F86](https://etherscan.io/address/0xfAe841679dc1A93D225ECc827E4BbF3e8d703F86) |
 | Alto Adapter | [0x4F46bb6948190eDd091c3A4f47DC2946Ae627369](https://etherscan.io/address/0x4F46bb6948190eDd091c3A4f47DC2946Ae627369) |
-| Fee Recipient | [0xb9F06fEFc4c53dEd77A90Cb798eD08DC068Bb6dd](https://etherscan.io/address/0xb9F06fEFc4c53dEd77A90Cb798eD08DC068Bb6dd) |
-| Fee Recipient (Mint Markets) | [0x5F80c18b6B73B1C4F06fa5233De32778eC90FA96](https://etherscan.io/address/0x5F80c18b6B73B1C4F06fa5233De32778eC90FA96) |
+| Legacy Fee Recipient | [0xb9F06fEFc4c53dEd77A90Cb798eD08DC068Bb6dd](https://etherscan.io/address/0xb9F06fEFc4c53dEd77A90Cb798eD08DC068Bb6dd) |
+| Legacy Fee Recipient (Mint Markets) | [0x5F80c18b6B73B1C4F06fa5233De32778eC90FA96](https://etherscan.io/address/0x5F80c18b6B73B1C4F06fa5233De32778eC90FA96) |
 | Address Change | [0x8cf6F8D0201f38Fa3e6f21C1f4803f4eb40c0bB2](https://etherscan.io/address/0x8cf6F8D0201f38Fa3e6f21C1f4803f4eb40c0bB2) |
 | DUSD Vault | [0x6954785783c6EE90400fA715E591fBbA0D0Bd749](https://etherscan.io/address/0x6954785783c6EE90400fA715E591fBbA0D0Bd749) |
 | Vault Registry | [0x696E7b1D5D11E2cf7F7b970aCf54cF1491f17A47](https://etherscan.io/address/0x696E7b1D5D11E2cf7F7b970aCf54cF1491f17A47) |
 | Liquidation Periphery | [0xa9DDC8833A7eEcbcFd48F6cBa17c521099683615](https://etherscan.io/address/0xa9DDC8833A7eEcbcFd48F6cBa17c521099683615) |
 | Emergency Controller | [0x3c822f14a90955bf35278b42BA509FeEcAD3a305](https://etherscan.io/address/0x3c822f14a90955bf35278b42BA509FeEcAD3a305) |
-| Emergency Controller Implementation | [0xFE329F88663b9B8833b180A139315C131A033167](https://etherscan.io/address/0xFE329F88663b9B8833b180A139315C131A033167) |
+| Emergency Controller Implementation | [0xb92174cCd40dfC7eaCc355fD15aEF82f10253839](https://etherscan.io/address/0xb92174cCd40dfC7eaCc355fD15aEF82f10253839) |
 | Owner Fixed Rate IRM Factory | [0xb236C44F2A243e7F0f03a1eff6D447cd043A5c9C](https://etherscan.io/address/0xb236C44F2A243e7F0f03a1eff6D447cd043A5c9C) |
 
 ## USM (Universal Stability Module)
