@@ -10,6 +10,7 @@ Security is a top priority at Alto. We engage with leading security firms to con
 
 | Date | Provider | Scope | Technical Scope | Report |
 |:-----|:---------|:------|:----------------|:-------|
+| September 2026 | Kiki | sDUSD, protocol fees & peg-responsive IRM | `PegResponsiveExponentialIrm`; `DusdPegCurveOracle`; `ProtocolFeeCollector`; `SDUSD`; `AltoMintMarket`<br>Reviewed version: [`2227312e`](https://github.com/altomoney/v1/tree/2227312e) | [📄 View Report](./reports/kiki_alto_money_sep2026.pdf) |
 | September 2026 | Cantina | Convex credit line | `AltoConvexCreditLineLib` and `AltoConvexCreditLineMarket`<br>Reviewed version: [`438ad257`](https://github.com/altomoney/v1/tree/438ad257) | [📄 View Report](./reports/cantina_alto_money_sep2026.pdf) |
 | June 2026 | Cantina | Lending, liquidations & Peg Stability Module | Changes to `AltoBaseMarket` from [PR #518](https://github.com/altomoney/v1/pull/518); `LiquidationPeriphery`; the `AdvancedPermissionsUsm` and `AdvancedPermissionsFeeStrategy` extensions from [PR #512](https://github.com/altomoney/v1/pull/512) and [PR #513](https://github.com/altomoney/v1/pull/513)<br>Reviewed version: [`da40ba42`](https://github.com/altomoney/v1/tree/da40ba42) | [📄 View Report](./reports/cantina_alto_money_jun2026.pdf) |
 | April 2026 | Cantina | Lending vault | `AltoVault`; `AltoBalancesLib`; `MarketLib`; `PendingLib`; `AltoAdapter`<br>Reviewed version: [`b1d504fc`](https://github.com/altomoney/v1/tree/b1d504fc) | [📄 View Report](./reports/report-cli-cantina-2032a5c5-8cb7-433b-bdfe-64b0cde36cac-alto-phaze-solo.pdf) |
@@ -27,6 +28,7 @@ Security is a top priority at Alto. We engage with leading security firms to con
 - **[Enigma Dark](https://www.enigmadark.com/)** — Managed security review program with continuous coverage
 - **[Bailsec](https://bailsec.io/)** — Smart contract security audits
 - **[Cantina](https://cantina.xyz/)** — Web3 security reviews
+- **[Kiki](https://github.com/devNamedKiki/Audits)** - Independent security researcher
 
 
 ## Alto Bug Bounty Program
