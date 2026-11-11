@@ -25,9 +25,9 @@ Security is a top priority at Alto. We engage with leading security firms to con
 
 ## Security Providers
 
-- **[Enigma Dark](https://www.enigmadark.com/)** — Managed security review program with continuous coverage
-- **[Bailsec](https://bailsec.io/)** — Smart contract security audits
-- **[Cantina](https://cantina.xyz/)** — Web3 security reviews
+- **[Enigma Dark](https://www.enigmadark.com/)** - Managed security review program with continuous coverage
+- **[Bailsec](https://bailsec.io/)** - Smart contract security audits
+- **[Cantina](https://cantina.xyz/)** - Web3 security reviews
 - **[Kiki](https://github.com/devNamedKiki/Audits)** - Independent security researcher
 
 
@@ -39,6 +39,8 @@ Starting on December 11th, 2025, the deployed contracts referencing the followin
 
 The scope of the Program is strictly limited to the following deployed [contracts](./deployments/mainnet.md).
 
+The deployment list is the authoritative scope, including the proxy implementations it lists. Every listed contract has verified source code on Etherscan, which is the authoritative record of the code in production. The [smart-contract repository](https://github.com/altomoney/v1) is public, and each audit above links the commit it reviewed.
+
 The following are not within the scope of the Program:
 
 - Bugs in any third-party contract or platform that merely integrates with Alto.
@@ -47,7 +49,7 @@ The following are not within the scope of the Program:
 
 ### Public Disclosure of Known Issues
 
-Bug reports covering previously-discovered bugs (listed below) are not eligible for a reward within this program. This includes known issues that the project is aware of but has consciously decided not to “fix”, necessary code changes, or any implemented operational mitigating procedures that can lessen potential risk.
+Bug reports covering previously-discovered bugs, including the findings in the [completed audits](#completed-audits), are not eligible for a reward within this program. This includes known issues that the project is aware of but has consciously decided not to “fix”, necessary code changes, or any implemented operational mitigating procedures that can lessen potential risk.
 
 ### Vulnerability description
 
@@ -63,7 +65,9 @@ Bug reports covering previously-discovered bugs (listed below) are not eligible 
 | **Critical** | **High** | **Medium** | 
 |--------------|----------|------------|
 | **Max:** \$100,000  | **Max:** \$20,000  | **Flat:** \$3,000 | 
-| **Min:** \$20,000    | **Min:** \$5,000  | —                  | 
+| **Min:** \$20,000    | **Min:** \$5,000  | -                  | 
+
+Low-severity and informational findings are not eligible for a reward.
 
 
 ### Reward Calculation for Critical Level Reports
@@ -72,9 +76,19 @@ For critical smart contract bugs, the reward amount is 10% of the funds directly
 
 ### Reward Payment Terms
 
-Payouts are handled by the Alto team directly and are denominated in USD. However, payments are done in USDC on Mainnet.
+Alto pays rewards directly, not through a third-party bounty platform. Rewards are denominated in USD and paid in USDC on Ethereum mainnet to a wallet the researcher controls.
 
 The calculation of the net amount rewarded is based on the average price of USDC between CoinMarketCap.com and CoinGecko.com at the time the bug report was submitted. No adjustments are made based on liquidity availability.
+
+### Payout Requirements
+
+Before paying a reward, Alto:
+
+- Screens the payout wallet against public sanctions lists and abuse reports.
+- Asks the researcher to sign a message with the payout wallet, confirming they control it and receive the reward for themselves.
+- Requires KYC for rewards above USD 10,000. The researcher provides their full legal name, date of birth, nationality, country of residence, a copy of a passport or national ID, and proof of address dated within the last 3 months. Alto collects these documents through an encrypted link and stores them encrypted. Rewards paid to the same researcher within 12 months count together toward the USD 10,000 threshold.
+
+Alto cannot pay anyone on a sanctions list, or make any payment that would breach applicable sanctions. Otherwise, the program is open to researchers in any country.
 
 
 ### Disclosure
